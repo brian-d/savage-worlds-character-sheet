@@ -1,0 +1,6 @@
+{
+  "maxerr": 50,
+  "globals": {
+    "angular": true
+  }
+}
