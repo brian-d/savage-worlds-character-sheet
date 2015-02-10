@@ -1,0 +1,18 @@
+{
+  "name": "savage-worlds-character-sheet",
+  "version": "0.0.0",
+  "homepage": "https://github.com/brian-d/savage-worlds-character-sheet",
+  "authors": [
+    "Brian Dahl <brian.w.dahl@gmail.com>"
+  ],
+  "description": "A savage worlds character sheet application",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
