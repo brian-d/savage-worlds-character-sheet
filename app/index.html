@@ -21,6 +21,7 @@
         <ul class="nav navbar-nav">
           <li><a href="#">Character List</a></li>
           <li><a href="#">New Character</a></li>
+          <li><a href="#">About</a></li>
         </ul>
       </div>
     </nav>
@@ -34,7 +35,10 @@
                 Filter
               </div>
               <div class="panel-body">
-
+                <div class="form-group">
+                  <label for="searchBox">Search:</label>
+                  <input ng-model="query" id="searchBox" type="text" class="form-control">
+                </div>
               </div>
 
             </div>
@@ -50,7 +54,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr ng-repeat="character in characters">
+                <tr ng-repeat="character in characters | filter:query">
                   <td>{{character.name}}</td>
                   <td>{{character.setting}}</td>
                   <td>{{character.archtype}}</td>
