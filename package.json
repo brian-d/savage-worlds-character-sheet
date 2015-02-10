@@ -1,0 +1,16 @@
+{
+  "name": "savage-worlds-character-sheet",
+  "version": "1.0.0",
+  "description": "A little angular app I'm hacking on to get a bit better with Angularjs.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brian-d/savage-worlds-character-sheet.git"
+  },
+  "author": "Brian Dahl <brian.w.dahl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brian-d/savage-worlds-character-sheet/issues"
+  },
+  "homepage": "https://github.com/brian-d/savage-worlds-character-sheet",
+  "private": "true"
+}
