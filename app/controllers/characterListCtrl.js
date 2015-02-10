@@ -1,4 +1,4 @@
-angular.module('swApp')
+angular.module('swApp', [])
   .controller('characterListCtrl', function($scope, $http) {
     'use strict';
 

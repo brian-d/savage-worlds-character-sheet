@@ -3,6 +3,15 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    connect: {
+      server: {
+        options: {
+          keepalive: true,
+          port: 9001,
+          hostname: 'localhost'
+        }
+      }
+    },
     jshint: {
       options: {
         "maxerr": 50,
@@ -16,11 +25,12 @@ module.exports = function(grunt) {
     }
   });
 
-  // Load the plugin that provides the "uglify" task.
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
   // Default task(s).
   grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('start', ['connect:server']);
 
 };
 

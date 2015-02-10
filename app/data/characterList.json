@@ -1,6 +1,6 @@
 [
-  { name: 'Krull', setting: 'Fantasy', archtype: 'Warrior', description: 'Dual weilding berzerker type character' },
-  { name: 'C0MR4D3', setting: 'Shadowrun', archtype: 'Decker', description: 'Russian decker archtype specializing in fighting ICE instead of avoiding it' },
-  { name: 'Sir Nastypants', setting: 'Superhero', archtype: 'Brawler', description: 'Your average punchy superhero' }
-  { name: 'Shadowclaw', setting: 'SHadowrun', archtype: 'Shaman', description: 'A crab shaman. When the world demands he goes forward or backward, he goes sideways.' }
+  { "name": "Krull", "setting": "Fantasy", "archtype": "Warrior", "description": "Dual weilding berzerker type character" },
+  { "name": "C0MR4D3", "setting": "Shadowrun", "archtype": "Decker", "description": "Russian decker archtype specializing in fighting ICE instead of avoiding it" },
+  { "name": "Sir Nastypants", "setting": "Superhero", "archtype": "Brawler", "description": "Your average punchy superhero" },
+  { "name": "Shadowclaw", "setting": "Shadowrun", "archtype": "Shaman", "description": "A crab shaman. When the world demands he goes forward or backward, he goes sideways." }
 ]
